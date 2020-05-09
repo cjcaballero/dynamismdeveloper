@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Highest;
+  src: url(../images/Fonts/Highest.otf);
+  src: url(../images/Fonts/Highest.ttf);
+
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Fondos/bg.jpg);
+    /*horizontalmente y centrado */
+    background-position: center center;
+
+    /* Esta imagen no debe de repetirse */
+    background-repeat: no-repeat;
+
+    /* COn esta regla fijamos la imagen en la pantalla. */
+    background-attachment: fixed;
+
+    /* La imagen ocupa el 100% y se reescala */
+    background-size: cover;
+
+    /* Damos un color de fondo mientras la imagen está cargando  */
+    background-color: #464646;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container ul.menu {
+  height: 50px;
+  width: 50px;
+}
+.container ul.menu li {
+  position: relative;
+  background: white;
+  margin: 10px;
+  height: 8px;
+  width: 50px;
+  transition: transform .3s, width .3s;
+  margin-left: -107px;
+}
+.container .active_menu li:nth-child(1) {
+  top: 18px;
+  transform: rotate(135deg);
+  transition: transform .3s;
+}
+.container .active_menu li:nth-child(2) {
+  width: 0;
+  transition: width .3s;
+}
+.container .active_menu li:nth-child(3) {
+  bottom: 18px;
+  transform: rotate(-135deg);
+  transition: transform .3s;
+}
+.container ul.links {
+  overflow: hidden;
+  width: 0;
+  margin-left: 0px;
+  transition: width .4s, margin-left .4s;
+}
+.container ul.links li {
+  margin: 5px;
+}
+.container ul.links li a {
+  color: white;
+  -webkit-text-stroke: 2px black;
+  text-decoration: none;
+  transition: color .5s;
+  text-transform: uppercase;
+  font-size: 54px;
+  font-family: 'Highest';
+  transition: color .5s, margin-left .5s;
+}
+.container ul.links li a:hover {
+  color: black;
+  margin-left: 20px;
+  transition: color .5s, margin-left .5s;
+}
+.container .active_links {
+  width: 450px !important;
+  margin-left: 35px !important;
+  transition: width .4s, margin-left .4s;
+}
