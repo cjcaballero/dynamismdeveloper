@@ -1048,7 +1048,7 @@ h6 {
 /*============== footer-area css ===============*/
 .footer-area {
 
-  background-color: #666;
+  background-color: #000;
   z-index: 999;  
   position: absolute;
   width: 100%;
