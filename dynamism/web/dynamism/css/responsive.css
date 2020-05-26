@@ -1,0 +1,1478 @@
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900&display=swap');
+
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/*Responsive*/
+
+@media (max-width:1619px){
+  /* Main Menu Area css
+  ============================================================================================ */
+   .header_area .navbar .search {
+    margin-left: 40px;
+  }
+  /* End Main Menu Area css
+  ============================================================================================ */
+}
+@media (max-width:1300px){
+}
+@media (max-width:1199px){
+
+    .header_area .navbar .nav .nav-item {
+    margin-right: 28px;
+  }
+  /* End Main Menu Area css
+  ============================================================================================ */
+  /* Home Banner Area css
+  ============================================================================================ */
+  .home_banner_area .banner_inner {
+    padding: 100px 0px;
+  }
+  /* End Home Banner Area css
+  ============================================================================================ */
+  .header_area .navbar .tickets_btn {
+    margin-left: 40px;
+  }
+
+}
+
+@media (max-width:991px){
+  /* Main Menu Area css
+  ============================================================================================ */
+  .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: -5px;
+        margin-bottom: 23px;
+    }
+  .header_area .navbar {
+    background: transparent;
+  }
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+    opacity: 1;
+  }
+  .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+    opacity: 0;
+  }
+  .navbar-toggler[aria-expanded="true"] span:first-child {
+    transform: rotate(-45deg);
+    position: relative;
+    top: 7.5px;
+  }
+  .navbar-toggler[aria-expanded="true"] span:last-child {
+    transform: rotate(45deg);
+    bottom: 6px;
+    position: relative;
+  }
+  .navbar-toggler span{
+    display: block;
+    width: 25px;
+    height: 3px;
+    background: #71C0E7;
+    margin: auto;
+    margin-bottom: 4px;
+    transition: all 400ms linear;
+    cursor: pointer;
+  }
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav{
+        margin-top: -10px;
+    }
+
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background: #007bff;
+
+}
+
+  .header_area + section, .header_area + row, .header_area + div {
+    margin-top: 117px;
+  }
+    .header_top .nav{
+        padding: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link{
+      line-height: 40px;
+      margin-right: 0px;
+      display: block;
+      border-bottom: 1px solid #ededed33;
+      border-radius: 0px;
+      background: rgba(113,192,231,0.62);
+      background: -webkit-linear-gradient(left, rgba(113,192,231,0.62) 0%, rgba(113,192,231,0.65) 50%, rgba(113,192,231,0.65) 51%, rgba(113,192,231,0.66) 71%, rgba(113,192,231,0.67) 100%);
+      background: -o-linear-gradient(left, rgba(113,192,231,0.62) 0%, rgba(113,192,231,0.65) 50%, rgba(113,192,231,0.65) 51%, rgba(113,192,231,0.66) 71%, rgba(113,192,231,0.67) 100%);
+      background: linear-gradient(to right, rgba(113,192,231,0.62) 0%, rgba(113,192,231,0.65) 50%, rgba(113,192,231,0.65) 51%, rgba(113,192,231,0.66) 71%, rgba(113,192,231,0.67) 100%);
+      cursor: crosshair;
+      width: 250px;
+       
+    }
+    .header_area .navbar .search{
+        margin-left: 0px;
+    }
+  .header_area .navbar-collapse{
+    max-height: 340px;
+    overflow-y: scroll;
+  }
+  .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+    padding: 0px 15px;
+  }
+  .header_area .navbar .nav .nav-item {
+    margin-right: 0px;
+  }
+  .header_area + section, .header_area + row, .header_area + div {
+    margin-top: 71px;
+  }
+  .home_banner_area .banner_inner .banner_content .banner_map_img {
+    display: none;
+  }
+  .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
+    line-height: 40px;
+  }
+  /* End Main Menu Area css
+  ============================================================================================ */
+p{
+
+  font-weight: bolder;
+
+}
+
+  /* Footer Area css
+  ============================================================================================ */
+  .footer-area .col-sm-6{
+    margin-bottom: 30px;
+  }
+  /* End End Footer Area css
+  ============================================================================================ */
+  .header_area .navbar .tickets_btn {
+    margin-left: 0px;
+  }
+  .home_banner_area {
+
+    min-height: 700px;
+
+  }
+ 
+
+  /*banner_sub*/
+.banner_sub {
+  color: #fff;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  margin-top: -145px;
+}
+
+/*Contamos con personal capacitado 
+mobil*/
+
+.home_banner_area_shop .banner_sub p {
+  margin-top: 243px;
+  color: #fff;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  line-height: 45px;
+  
+}
+
+.content-landing .banner_sub p{
+
+  margin-top: 105px;
+  color: #FFF;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  
+
+
+}
+
+
+/*=========================================*/
+/*Nosotros*/
+
+.content-landing{
+
+  background: #1FC2DE 0% 0% no-repeat padding-box;
+  opacity: 1;
+  
+  
+}
+
+.content-landing .banner_inner p{
+
+  color: #666;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 0px;
+  margin-top: 50px;
+
+}
+
+.content-landing .banner_inner span{
+
+  color: #fff;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 7px;
+  line-height: 30px;
+  margin-top: 50px;
+
+
+}
+
+.content-landing .banner_inner iframe{
+
+  width:250px;
+  height:200px;
+  margin-top: 30px;
+  margin-left: 26px;
+
+}
+
+
+span {
+
+  font-size: 12px;
+  font-family: Montserrat;
+  color: #1FC2DE;
+  text-transform: uppercase;
+  font-weight: bold;
+
+
+}
+
+img{
+ 
+ width: 250px;
+ height: auto;
+
+}
+
+.section-padding {
+    padding: 100% 0;
+}
+
+.content-empresarial{
+
+  position: relative;
+
+}
+
+.content-empresarial-bg{
+
+    background: rgba(0, 0, 0, 0) url("../images/Empresarial/coctel.jpg") no-repeat scroll center center / cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+
+}
+
+.content-empresarial-bg::after {
+    background: #000 url(../images/Empresarial/pattarn.png);
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.content-empresarial .banner_inner p{
+
+  color: #fff;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 50px;
+
+
+}
+
+.content-empresarial .banner_inner span{
+
+  color: #fff;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 50px;
+
+
+}
+
+.title-empresarial{
+  
+  color: #1FC2DE;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  z-index: 9;
+
+}
+  
+.content-empresarial .banner_inner .title-empresarial p{
+
+  margin-top: 15px;
+  color: #1FC2DE;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  line-height: 45px;
+
+}
+
+.subtitle-detord{
+
+  margin-top: -55px;
+  z-index: 9;
+  text-align: center;
+
+}
+
+
+.content-landing .banner_inner .subtitle-detord p{
+
+  color: #666;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 12px;
+  line-height: 15px;
+  margin-left: 0px;
+  text-align: center;
+  padding-top: 10px;
+
+
+}
+
+
+
+
+.subtitle-emp{
+
+  margin-top: -55px;
+  z-index: 9;
+
+}
+
+
+
+.subtitle-emp-second{
+
+  font-size: 12px;
+  font-family: Montserrat;
+  text-align: center;
+  z-index: 9;
+  color: #1FC2DE;
+
+}
+
+.content-empresarial .banner_inner img{
+
+ display: none;
+  
+}
+
+.img-empre{
+
+  margin-top: 530px;
+  margin-left: 100px;
+
+}
+
+.img-empre1{
+
+  margin-top: 320px;
+  margin-left: 100px;
+
+}
+
+.paquetes{
+
+  color: #fff;
+  z-index: 9;
+  position: absolute;
+}
+
+.content-empresarial .banner_inner .paquetes h1{
+
+  color: #1FC2DE;
+  font-size: 24px;
+  font-family: Montserrat Black;
+  margin-left: 0px;
+  margin-top: 30px;
+  text-align: center;
+
+}
+
+.content-empresarial .banner_inner .paquetes span{
+
+  color: #1FC2DE;
+  font-size: 15px;
+  font-family: Montserrat Black;
+  text-align: left;
+
+}
+
+.content-empresarial .banner_inner .paquetes p{
+
+  color: #fff;
+  font-size: 15px;
+  font-family: Montserrat;
+  line-height: 35px;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 0px;
+
+}
+
+.paq-text{
+
+  margin-left: 15px;
+  margin-top: 15px;
+
+}
+
+.img-empre1{
+
+  margin-top: 320px;
+  margin-left: 100px;
+
+}
+
+.btns-shop{
+
+    margin-top: -40px;
+
+}
+
+.btn-orders
+{
+    width: 100%;
+    font-size: 16px;
+    color: #666;
+    background-color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 17px;
+    margin-left: 0px;
+}
+
+.content-landing .banner_inner .btns-shop .btn-orders span{
+
+  font-size: 14px;
+
+}
+
+
+.content-landing .banner_inner .btns-shop .btn-revisarorden span{
+
+  font-size: 20px;
+
+
+}
+
+.btn-orders:hover, .btn-orders:focus
+{
+    color: #666;
+    background-color: #fff;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.btn-revisarorden
+{
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8BC34A;
+    text-decoration: none;
+    text-shadow: 1px 1px #333;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-revisarorden:hover, .btn-revisarorden:focus
+{
+    color: #fff;
+    background-color: #8BC34A;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+
+.btnContinuarComprando{
+
+  width: 190px;
+  height:41px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+
+.btns-action_check a{
+
+  margin-left: 2px;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top: 2px;
+  width: 300px;
+  height:41px;
+  font-size: 20px;
+
+}
+
+.btns-action_check a:hover{
+
+  color: #1FC2DE;
+
+}
+
+.btns-action_check_fin a{
+
+  margin-left: 2px;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top: 2px;
+  width: 300px;
+  height:41px;
+  font-size: 20px;
+
+}
+
+.btns-action_check_fin a:hover{
+
+  color: #1FC2DE;
+
+}
+
+
+/*=========================================*/
+/*Contacto*/
+
+.content-contacto{
+
+background-color: #fff;
+opacity: 1;
+padding-bottom: 2%;
+  
+  
+}
+
+.content-contacto .banner_inner p{
+
+  color: #666;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  line-height: 27px;
+  margin-left: 0px;
+  margin-top: 50px;
+
+
+}
+
+.content-contacto .banner_inner span{
+
+  color: #fff;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  line-height: 38px;
+  margin-top: 50px;
+
+
+}
+
+
+.title-tienda{
+  
+  color: #fff;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  z-index: 9;
+
+}
+
+
+  
+.content-landing .banner_inner .title-tienda p{
+
+  margin-top: -40px;
+  color: #fff;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  line-height: 40px;
+
+}
+
+.title-tienda{
+  
+  color: #fff;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  z-index: 9;
+
+}
+
+
+  
+.content-landing .banner_inner .title-checkout p{
+
+  margin-top: -15px;
+  color: #fff;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  line-height: 45px;
+
+}
+
+
+
+.title-contacto{
+  
+  color: #fff;
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+  align-self: center;
+  text-align: center;
+  z-index: 9;
+
+}
+  
+.content-contacto .banner_inner .title-contacto p{
+
+  margin-top: 15px;
+  color: #1FC2DE;
+  font-family: Montserrat Black;
+  text-align: center;
+  width: 100%;
+  font-size: 36px;
+  letter-spacing: 0;
+  opacity: 1;
+  line-height: 45px;
+
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+.content-contacto section{
+
+padding-top: 1px;
+
+}
+
+
+.content-contact .banner_inner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+
+}
+
+
+.content-contact .banner_inner .container {
+  vertical-align: middle;
+  -ms-flex-item-align: center;
+   align-self: center;
+}
+
+.contact-area{
+
+  background: transparent radial-gradient(closest-side at 50% 14%, #38BC2D 0%, #1AB20D 100%) 0% 0% no-repeat padding-box;
+  
+
+}
+
+input[type="number"]{
+
+    width: 100%;
+
+}
+
+.number{
+
+  width: 150px;
+  height: auto;
+  color: #000;
+
+}
+
+
+
+.btns-action_view a{
+
+  
+  margin-left: 1%;
+  margin-right: 1%;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top: 40px;
+  width: 327px;
+  height:41px;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.btns-action_view a:hover{
+
+  color: #1FC2DE;
+
+}
+
+.btns-action_view_Confirm a{
+
+  margin-left: 1%;
+  margin-right: 1%;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top: -160px;
+  width: 326px;
+  height:41px;
+
+}
+
+.btns-action_view_Confirm a:hover{
+
+  color: #1FC2DE;
+
+}
+
+
+
+input[type=text] {
+  
+  background: #fff 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border-width: 0;
+  color: #1FC2DE;
+  border: 2px solid #666;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+
+}
+
+::placeholder{
+
+  color: #1FC2DE;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input-nombre{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: -10px;
+  padding: 0 33px;
+
+}
+
+.input-email{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0 33px;
+
+}
+
+.input-tel{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0 33px;
+
+}
+
+.input-direccion{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0 33px;
+
+}
+
+.input-asunto{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0 33px;
+
+
+}
+
+select{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -5px;
+  margin-top: 5px;
+  padding: 0 33px;
+  border: 2px solid #666;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #1FC2DE;
+  font-weight: bold;
+
+}
+
+
+.content-landing .banner_inner select{
+
+  width: 345px;
+  height: 40px;
+  margin-left: -55px;
+  margin-top: 5px;
+  padding: 0 33px;
+  border: 2px solid #666;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #1FC2DE;
+  font-weight: bold;
+
+}
+
+
+.textarea {
+
+  background: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  padding: 7px 35px; 
+  border: 2px solid #666;
+  color: #1FC2DE;
+  width: 345px;
+  height: 150px;
+  margin-top: 5px;
+  margin-left: -5px;
+  text-transform: uppercase;
+
+
+}
+
+input[type=submit]{
+
+  background-color: #666;
+  border: 1px solid #666;
+  text-transform: uppercase;
+  cursor: crosshair;
+
+}
+
+.btncontent-contact{
+
+  background-color: transparent;
+  margin-left: 70px;
+  margin-top: 5px;
+  width: 190px;
+  height: 41px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #1FC2DE;
+  font-weight: bold;
+
+}
+
+.btncontent-contact:hover{
+
+  color: #fff;
+
+}
+
+.heart{
+
+  width: 33px;
+  height: 31px;
+  margin-top: -50px;
+  margin-left: 602px;
+}
+
+
+
+
+input[type=email] {
+  
+  background: #fff 0% 0% no-repeat padding-box;
+  color: #1FC2DE;
+  border: 2px solid #666;
+  font-weight: bold;
+
+}
+
+.btn-correo_top{
+
+  width: 118px;
+  height: 56px;
+  margin-left: 248px;
+  margin-top: 5px;
+  color:#fff;
+  font-weight: bold;
+
+}
+
+
+select:required:invalid {
+    color: #1FC2DE;
+}
+
+option[value=""][disabled] {
+    display: none;
+    color: #fff;
+    font-family: Montserrat;
+    opacity: 1;
+    font-weight: bold;
+}
+
+option {
+    
+    color: #1FC2DE;
+    font-weight: bold;
+}
+
+input::-webkit-input-placeholder { /* Edge */
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  font-weight: bold;
+  
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  font-weight: bold;
+  
+}
+
+input::placeholder {
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 15px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  padding: 0px; 
+  font-weight: bold;
+}
+
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    color: #1FC2DE;
+} 
+  
+.icon { 
+
+    padding: 10px; 
+    min-width: 40px; 
+    color: #1FC2DE;
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+    color: #E7E7E7;
+} 
+
+
+.derechosfoot{
+  
+  padding-right: 25%;
+  padding-left: 25%;
+  color: white;
+  font-size: 8px;
+
+}
+
+
+.content-landing .banner_inner .subtitle-envio p{
+
+  color: #666;
+  font-family: Montserrat Regular;
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  line-height: 38px;
+  margin-left: 5px;
+  margin-top: 30px;
+
+
+}
+
+
+.btns-action_Continuar button{
+
+  margin-left: -10px;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top:12px;
+  width: 300px;
+
+}
+  
+
+.btnContinuar{
+
+  width: 190px;
+  height:41px;
+  font-weight: bold;
+
+}
+
+
+.btns-action_Continuar button{
+
+  margin-left: 18px;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top:-165px;
+
+}
+
+.btns-action_Continuar button:hover{
+
+  color: #1FC2DE;
+
+}
+
+
+.btns-action a{
+
+  margin-left: 17px;
+  border:2px solid #666;
+  color: #fff;
+  background-color: #666;
+  margin-top: 60px;
+  width: 300px;
+  height:41px;
+  font-weight: bold;
+
+}
+
+.btns-action a:hover{
+
+  color: #1FC2DE;
+
+}
+
+
+.content-successorder .banner_inner .title-successorder img{
+
+  margin-left: -5px;
+  margin-top: 415px;
+  width: 350px;
+  height: auto;
+
+}
+
+.feis{
+  
+  width: 20px;
+  height: 20px;
+  margin-top: -23px;
+  margin-left: 18px;
+
+}
+
+.insta{
+  
+  width: 20px;
+  height: 20px;
+  margin-top: -20px;
+  margin-left: 42px;
+
+}
+
+.input-usuario{
+
+  width: 335px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: -10px;
+  padding: 0 33px;
+  z-index: 999;  
+  position: absolute;
+
+}
+
+.input-password{
+
+  width: 335px;
+  height: 50px;
+  margin-left: 0px;
+  margin-top: 50px;
+  padding: 0 33px;
+  z-index: 999;  
+  position: absolute;
+
+}
+
+
+.btncontent-loginintranet{
+
+  background-color: transparent;
+  margin-left: 145px;
+  margin-top: 115px;
+  width: 190px;
+  height: 41px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #1FC2DE;
+  font-weight: bold;
+  z-index: 999;  
+  position: absolute;
+
+}
+  /* End Main Menu Area css
+  ============================================================================================ */
+  
+
+}
+
+@media (max-width: 575px){
+
+.top_menu {
+    display: none;
+  }
+  .header_area + section, .header_area + row, .header_area + div {
+    margin-top: 0px;
+  }
+
+   /* Home Banner Area css
+  ============================================================================================ */
+  .home_banner_area .banner_inner .banner_content h2 {
+    font-size: 35px;
+    line-height: 2px;
+  }
+  .home_banner_area {
+    min-height: 500px;
+  }
+  .home_banner_area .banner_inner {
+    min-height: 500px;
+  }
+  .blog_banner .banner_inner .blog_b_text {
+    margin-top: 0px;
+  }
+  .home_banner_area .banner_inner .banner_content img{
+    display: none;
+  }
+  .home_banner_area .banner_inner .banner_content h5 {
+    margin-top: 0px;
+  }
+  .heart {
+  
+    display: none;
+
+  }
+
+
+  .home_banner_area .banner_inner .banner_content p {
+    color: #666;
+    font-family: Montserrat Regular;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    line-height: 33px;
+    margin-left: 13px;
+
+  }
+
+  .input-correo{
+
+   width: 332px;
+   height: 56px;
+   margin-top: -45px;
+   margin-left: 35px;
+   padding: 5px;
+
+}
+
+.Logo{
+
+ width: 177px;
+ height: 195px;
+ margin-top: 25px;
+ margin-left: 80px;
+
+}
+
+
+input::-webkit-input-placeholder { /* Edge */
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  font-weight: bold;
+  padding: 10px; 
+  
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  font-weight: bold;
+  padding: 10px; 
+}
+
+input::placeholder {
+  color: #1FC2DE;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: left;
+  letter-spacing: 0;
+  opacity: 1;
+  margin-left: 55px;
+  padding: 10px; 
+  font-weight: bold;
+}
+
+  .nav{
+        margin-left: 50px;
+        align-items: center;
+
+  }
+
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover
+{
+    background: #007bff;
+
+}
+
+  .tab-content{
+
+
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+
+table{
+
+  border:2px solid #666;
+  width: 50%;
+  
+
+}
+
+table th{
+
+
+  font-weight: bold;
+  color:#1FC2DE;
+  font-family: Montserrat;
+  font-size: 12px;
+  background-color: #000;
+  padding: 0px;
+
+
+
+}
+
+table td{
+
+
+  font-weight: bold;
+  font-family: Montserrat;
+  color:#fff;
+
+}
+
+
+
+  /* End Home Banner Area css
+  ============================================================================================ */
+
+  /*
+  ============================================================================================ */
+  /* Footer Area css
+  ============================================================================================ */
+  .footer-area {
+    padding: 0px 0px;
+  }
+  /* End End Footer Area css
+  ============================================================================================ */
+.footer-area a {
+  
+  color: white;
+  font-size: 8px;
+  text-align: center;
+}
+
+
+}
+
+
+@media (max-width:480px){
+  /* Main Menu Area css
+  ============================================================================================ */
+  .header_area .navbar-collapse{
+    max-height: 250px;
+  }
+  /* End Main Menu Area css
+  ============================================================================================ */
+  
+  /* Home Banner Area css
+  ============================================================================================ */
+    .home_banner_area .banner_inner .banner_content {
+    padding: 30px 15px;
+    margin-top: px;
+  }
+  .banner_content .white_btn {
+    display: block;
+  }
+  .home_banner_area .banner_inner .banner_content h3 {
+    font-size: 24px;
+  }
+  /* End Home Banner Area css
+  ============================================================================================ */
+  .banner_area .banner_inner .banner_content h2 {
+    font-size: 32px;
+  }
+  /* Blog Page Area css
+  ============================================================================================ */
+  .comments-area .thumb {
+    margin-right: 10px;
+  }
+  
+  /* End Blog Page Area css
+  ============================================================================================ */
+  
+  .event_schedule_inner .nav-tabs li a {
+    padding: 0px 22px;
+    line-height: 65px;
+  }
+  .home_map_area .home_details .box_home_details {
+    max-width: 100%;
+    float: none;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+}
